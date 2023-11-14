@@ -95,7 +95,7 @@ function App() {
 
       
   };
-  fetch('http://localhost:5000/addUser', requestOptions)
+  fetch('https://loginpage-backend.onrender.com/addUser', requestOptions)
   alert("your account sign up successfully")
 
  
@@ -138,7 +138,7 @@ console.log(images)
 
 async function fetchImages() {
   try{
-    const response=await fetch("http://localhost:5000/listUsers");
+    const response=await fetch("https://loginpage-backend.onrender.com/listUsers");
     const data=await response.json();
     setdetail(data)
     console.log(data)
