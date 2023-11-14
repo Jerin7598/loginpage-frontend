@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+input {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(144, 250, 250);
+  text-align: center;
+  position: relative;
+  z-index: 1; 
+  
+ 
+}
+
+.details {
+  margin-left: 30px;
+  margin-top: 60px;
+ border-radius: 5px;
+
+
+
+}
+select {
+  font-size: 15px;
+  border-radius: 7px;
+  margin-top: 13px;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(144, 250, 250);
+  position: relative;
+  z-index: 1; 
+  
+}
+.button {
+   margin-top: 60px;
+   font-size: 10px;
+   border-radius: 5px;
+   margin-left: 300px;
+   padding: 5px;
+   
+   background-color: rgb(144, 250, 250);
+   position: relative;
+   z-index: 1; 
+  
+}
+.button:hover{
+  
+  color: blue;
+  box-shadow: 1px 1px 4px 3px rgb(100, 98, 98);
+}
+h2 {
+  margin-bottom: 5px;
+}
+.total {
+  display: flex;
+  border: 2px solid black;
+  border: none;
+  border-radius: 20px;
+
+ margin: 100px;
+ margin-left: 400px;
+ padding: 30px;
+ height: 500px;
+ width: 700px;
+ background-color: rgb(128, 252, 252);
+margin-top: -250px;
+  
+}
+.img {
+  margin-top: 100px;
+
+  
+}
+.icon {
+  display: flex;
+  list-style-type: none;
+  margin-left: -12px;
+  margin-top: -30px;
+
+}
+.fa {
+  font-size: 30px;
+  margin-left: 20px;
+
+}
+input:hover{
+  box-shadow: 1px 1px 4px 3px rgb(126, 124, 124);
+}
+select:hover{
+  box-shadow: 1px 1px 4px 3px rgb(142, 136, 136);
+}
+.z2{
+  color: red;
+  font-size: 13px;
+}
+.z1{
+  color: green;
+  font-size: 13px;
+}
+
+.fa:hover{
+  color: blue;
+}
+
+.sec{
+  margin-left: 500px;
+  background-color:  rgb(144, 250, 250);
+  margin-left: 400px;
+  padding: 60px;
+  height: 350px;
+  width: 700px;
+  border-radius: 10px;
+  margin-top: -200px;
+}
+.but{
+  width: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 10px; 
+  background-color: rgb(144, 250, 250);
+  margin-top: 20px;
+}
+.je{
+  display: flex;
+  
+}
+.j{
+  margin-left: 30px;
+  margin-top: 200px;
+  position: relative;
+  z-index: 1; 
+  
+}
+.btn{
+  margin-top: 30px;
+}
+.jer{
+  margin-top: 5px;
+  position: relative;
+  z-index: 1; 
+}
+.flex{
+  display: flex;
+}
+.work2{
+  margin-left: 70px;
+  margin-top: 20px;
+}
+.but:hover{
+  
+  color: blue;
+  box-shadow: 1px 1px 4px 3px rgb(100, 98, 98);
+}
+
+
+.kk{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1
+
+}
+
